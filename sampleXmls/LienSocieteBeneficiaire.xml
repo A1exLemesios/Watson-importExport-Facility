@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="LienSocieteBeneficiaire.xsd" generated="2011-10-12T17:57:59">
+  <LienSocieteBeneficiaire>
+    <NoInterneSociete>1453211</NoInterneSociete>
+    <NoInternePersonne>111111</NoInternePersonne>
+    <Relation>B</Relation>
+	<Part>25</Part>
+    <IsActive>1</IsActive>
+    <Changement>I</Changement>
+  </LienSocieteBeneficiaire>
+  <LienSocieteBeneficiaire>
+    <NoInterneSociete>1453211</NoInterneSociete>
+    <NoInternePersonne>111111</NoInternePersonne>
+    <Relation>M</Relation>
+	<Part>0</Part>
+    <IsActive>1</IsActive>
+    <Changement>U</Changement>
+  </LienSocieteBeneficiaire>
+<LienSocieteBeneficiaire>
+    <NoInterneSociete>1453211</NoInterneSociete>
+    <NoInternePersonne>111112</NoInternePersonne>
+    <Relation>B</Relation>
+	<Part>75</Part>
+    <IsActive>1</IsActive>
+    <Changement>I</Changement>
+  </LienSocieteBeneficiaire>
+<LienSocieteBeneficiaire>
+    <NoInterneSociete>1453211</NoInterneSociete>
+    <NoInternePersonne>111112</NoInternePersonne>
+    <Relation>A</Relation>
+	<Part>0</Part>
+    <IsActive>1</IsActive>
+    <Changement>I</Changement>
+  </LienSocieteBeneficiaire>
+</dataroot>

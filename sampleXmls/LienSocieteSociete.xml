@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="LienSocieteSociete.xsd" generated="2011-10-12T17:57:59">
+<LienSocieteSociete>
+   <NoInterne>1</NoInterne>
+   <NoInterneSocieteMere>1453211</NoInterneSocieteMere>
+   <NoInterneSocieteFille>1453214</NoInterneSocieteFille>
+   <Relation>B</Relation>
+   <Part>100</Part>
+   <IsActive>1</IsActive>
+   <Changement>U</Changement>
+</LienSocieteSociete>
+<LienSocieteSociete>
+  <NoInterne>2</NoInterne>
+  <NoInterneSocieteMere>1453211</NoInterneSocieteMere>
+  <NoInterneSocieteFille>1453214</NoInterneSocieteFille>
+  <Relation>A</Relation>
+  <Part>0</Part>
+  <IsActive>1</IsActive>
+  <Changement>I</Changement>
+</LienSocieteSociete>
+</dataroot>

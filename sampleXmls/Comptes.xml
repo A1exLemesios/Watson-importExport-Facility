@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<comptes>
+<compte>
+<NumeroCompte>LU12345678901234</NumeroCompte>
+<Titulaire>Fontana S.A.</Titulaire>
+<TypeTitulaire>1</TypeTitulaire>
+<LifeCycle>A</LifeCycle>
+<AdresseLegal>45 route d&apos;Arlon
+L-1140 Luxembourg</AdresseLegal>
+<DteOuverture>2010-12-09</DteOuverture>
+<DteCloture>2020-12-09</DteCloture>
+<LangueCorrespondance>Français</LangueCorrespondance>
+<AdresseCourrier>45 route d&apos;Arlon
+L-1140 Luxembourg</AdresseCourrier>
+<Email>info@fontana.com</Email>
+<Fax>+3526584522</Fax>
+<ProfilGestion>3</ProfilGestion>
+<Restrictions>Ne souhaite pas investir dans des fonds immobiliers</Restrictions>
+<Remarques>Le compte sert à financer l&apos;acht de biens et services en Europe</Remarques>
+<CompteDormant>1</CompteDormant>
+<Responsable>User</Responsable>
+<Approuveur>User</Approuveur>
+<Changement>I</Changement>
+</compte>
+</comptes>
