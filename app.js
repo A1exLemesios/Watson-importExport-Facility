@@ -1,26 +1,26 @@
-
-xml2js = require('xml2js');
-var xml  = require("./importXml")();
-// var util = require("util");
-var parser = new xml2js.Parser({explicitArray : false});
+/*
+ * Test file
+ *
+ * Authors:
+ *
+ * - Alexandros Lemesios, @a1exLemesios, alex.lemesios@gmail.com
+ */
 
 "use strict";
 
-/*
-parseString(xml, {normalizeTags : true}, function (err, result) {
-    let customer = result ;
-    let tempGetSingles = {};
-    console.log("Complete result :");
-    console.dir(customer);
-    console.log("Customer name : ", customer.singles.main.nom);
+const xml2js      = require("xml2js");
+const xmlProvider = require("./xml-provider")();
 
+const parser = new xml2js.Parser({explicitArray : false});
+const xmlString = xmlProvider.getXMLString("Personnes.xml");
+
+
+// @TODO Check and see if boolean values work .
+parser.parseString(xmlString, function (error, result) {
+  if (error) {
+    console.log(error);
+    return false;
+  }
+
+  console.log(result);
 });
-*/
-
- // @TODO Check and see if boolean values work .
-  parser.parseString(xml, function (err, result) {
-    let customer = result ;
-    console.dir(customer);
-    console.log('Done');
-    console.log("Customer name : ", customer.singles.main.Nom);
-  });
