@@ -1,7 +1,7 @@
 
 xml2js = require('xml2js');
-var xml  = require("./importXml.js")();
-var util = require("util");
+var xml  = require("./importXml")();
+// var util = require("util");
 var parser = new xml2js.Parser({explicitArray : false});
 
 "use strict";
